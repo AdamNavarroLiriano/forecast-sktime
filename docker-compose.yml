@@ -1,0 +1,9 @@
+version: "2.2"
+
+services:
+  jupyter-lab:
+    build: ./env
+    ports:
+      - 8888:8888
+    volumes:
+      - /workspace:/workspace

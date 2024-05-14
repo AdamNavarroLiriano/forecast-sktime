@@ -1,0 +1,11 @@
+*.DS_Store
+*.csv
+.vscode/
+.ipynb_checkpoints/
+dist/
+build/
+*.egg-info
+*.pyc
+*.pkl
+*.pdf
+ 

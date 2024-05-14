@@ -1,0 +1,12 @@
+
+transforms: 
+  - log
+
+params:
+  order: [0, 0, 1]
+  seasonal_order: [1, 0, 0, 6]
+  maxiter: 1000
+
+output_path:
+  data/models/arima.pkl
+

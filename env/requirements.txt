@@ -1,0 +1,10 @@
+numpy>=1.21.1
+pandas>=1.2.4
+matplotlib>=3.5.2
+plotnine>=0.12.4
+black[jupyter]>=24.4.2
+sktime>=0.29.0
+pmdarima>=2.0.4
+seaborn>=0.13.2
+omegaconf>=2.3.0
+xgboost>=2.0.3

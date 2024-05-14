@@ -1,0 +1,23 @@
+
+train_data:
+  format: csv
+  path: data/train.csv
+  kwargs:
+    index_col: 0
+
+best_model: arima # rf, arima or xgb. Must be defined in conf/models and also in src/models/registry.py
+
+output_data: data/test.csv
+
+date_format: '%d.%m.%y'
+
+fh: ${arange:1,13}
+
+test_periods: 12
+
+cross_val:
+  strategy: expanding
+  args: 
+    initial_window: 48
+    step_length: 3
+

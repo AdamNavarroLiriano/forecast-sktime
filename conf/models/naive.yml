@@ -1,0 +1,9 @@
+
+transforms: null
+
+params:
+  strategy: last
+  sp: 12
+
+output_path:
+  data/models/naive.pkl
